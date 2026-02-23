@@ -32,7 +32,7 @@ O projeto demonstra como a linguagem SQL pode ser aplicada para consolidar métr
 
 <br>
 
-## 🗂 Data Context
+## 🗂 Contexto dos Dados
 
 A análise foi desenvolvida com base em três estruturas principais:
 
@@ -61,7 +61,7 @@ A modelagem relacional permitiu integrar dados dimensionais e transacionais, gar
 
 <br>
 
-## 💡 Key Insights
+## 💡 Principais Insights
 
 A análise permitiu identificar:
 
