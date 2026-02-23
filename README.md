@@ -82,3 +82,7 @@ O projeto demonstra a capacidade de transformar dados estruturados em inteligên
 Este projeto reforça que o domínio técnico em SQL, aliado à compreensão de indicadores de negócio, é essencial para gerar impacto real em ambientes orientados por dados.
 
 A aplicação estruturada de consultas, agregações e integrações relacionais possibilita a construção de análises robustas, capazes de apoiar decisões estratégicas em áreas como vendas, precificação e competitividade
+
+<br>
+
+> [Veja o notebook para detalhes da análise.](https://github.com/Gleynner/commercial_data_analysis-SQL/blob/main/projeto_analise_comercial.sql)
