@@ -85,4 +85,4 @@ A aplicação estruturada de consultas, agregações e integrações relacionais
 
 <br>
 
-> [Veja o notebook para detalhes da análise.](https://github.com/Gleynner/commercial_data_analysis-SQL/blob/main/projeto_analise_comercial.sql)
+> [Veja o script para detalhes da análise.](https://github.com/Gleynner/commercial_data_analysis-SQL/blob/main/projeto_analise_comercial.sql)
