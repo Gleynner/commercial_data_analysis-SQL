@@ -1,5 +1,7 @@
 # 📈 Análise Estratégica de Vendas e Precificação com SQL
 
+<br>
+
 ## 📌 Visão Geral
 
 Este projeto tem como objetivo realizar uma análise estratégica de dados comerciais utilizando SQL, com foco em desempenho de vendas, posicionamento de preços e análise competitiva.
@@ -7,6 +9,8 @@ Este projeto tem como objetivo realizar uma análise estratégica de dados comer
 A partir de uma base de dados relacional composta por informações de produtos, vendas e preços de concorrentes, foram desenvolvidas consultas estruturadas para transformar dados brutos em indicadores estratégicos de negócio.
 
 O projeto demonstra como a linguagem SQL pode ser aplicada para consolidar métricas, integrar tabelas transacionais e dimensionais, identificar inconsistências e gerar insights relevantes para tomada de decisão orientada por dados.
+
+<br>
 
 ## 🎯 Objetivos Estratégicos
 
@@ -26,41 +30,55 @@ O projeto demonstra como a linguagem SQL pode ser aplicada para consolidar métr
 
 - Avaliar impacto financeiro de inconsistências cadastrais
 
+<br>
 
-## Database Structure
+## 🗂 Data Context
 
-O projeto foi desenvolvido a partir de três tabelas principais:
+A análise foi desenvolvida com base em três estruturas principais:
 
-🔹 produtos
+- Produtos: informações cadastrais e preços atuais
 
-Contém informações cadastrais dos produtos:
+- Vendas: dados transacionais (quantidade, preço unitário, clientes)
 
-- id_produto
-- nome_produto
-- categoria
-- marca
-- preco_atual
-- data_criacao
+- Preços de Concorrentes: benchmark competitivo por produto
 
-🔹 vendas
+A modelagem relacional permitiu integrar dados dimensionais e transacionais, garantindo consistência analítica e geração de métricas consolidadas.
 
-Base transacional contendo:
+<br>
 
-- id_venda
-- data_venda
-- id_cliente
-- id_produto
-- canal_venda
-- quantidade
-- preco_unitario
+## 🛠 Technical Skills Applied
 
-🔹 preco_competidores
+- SQL (Structured Query Language)
+- PostgreSQL
+- Data Aggregation (SUM, AVG, COUNT, MAX, MIN)
+- INNER JOIN, LEFT JOIN, RIGHT JOIN
+- Subqueries
+- Common Table Expressions (CTE)
+- Data Filtering (WHERE, HAVING)
+- Conditional Logic (CASE)
+- Data Segmentation
+- Relational Data Modeling Concepts
 
-Tabela de benchmark competitivo:
+<br>
 
-- id_produto
-- nome_concorrente
-- preco_concorrente
-- data_coleta
+## 💡 Key Insights
 
-A modelagem relacional permite integrar dimensões (produtos) e fatos (vendas), viabilizando análises consolidadas.
+A análise permitiu identificar:
+
+- Categorias com maior geração de receita
+
+- Produtos potencialmente sobreprecificados frente ao mercado
+
+- Oportunidades de otimização do mix de produtos
+
+- Riscos operacionais decorrentes de inconsistências cadastrais
+
+O projeto demonstra a capacidade de transformar dados estruturados em inteligência estratégica aplicável à gestão comercial.
+
+<br>
+
+## 🚀 Conclusão
+
+Este projeto reforça que o domínio técnico em SQL, aliado à compreensão de indicadores de negócio, é essencial para gerar impacto real em ambientes orientados por dados.
+
+A aplicação estruturada de consultas, agregações e integrações relacionais possibilita a construção de análises robustas, capazes de apoiar decisões estratégicas em áreas como vendas, precificação e competitividade
